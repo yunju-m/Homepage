@@ -1,0 +1,25 @@
+/**메뉴 만들기 */
+.menu {
+  float: right;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu ul li {
+  float: right;
+  font-size: 20px;
+  font-family: Tahoma;
+}
+.menu li a {
+  float: right;
+  display: block;
+  padding: 5px;
+  color: #000000;
+  font-size: 15px;
+  text-decoration: none;
+}
+.menu li a:hover {
+  background-color: #cfcfcf;
+}
